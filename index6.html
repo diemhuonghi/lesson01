@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bài 6 đk thành viên</title>
+    <style>
+        .b1{
+            border: 6px solid rgb(51, 88, 112);
+            padding: 10px;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="b1">
+    <form>
+        <table width="500px" >
+            <caption> <h3>Đăng kí thành viên </h3></caption>
+            <tr>
+                <td  width="150px"> Tên đăng nhập</td>
+                <td><input type="text" name="usename" id="usename" size="30"> </td>
+            </tr>
+            <tr>
+                <td> Mật khẩu</td>
+                <td><input type="password" name="pass" id="pass" size="20"></td>
+            </tr>
+            <tr>
+                <td> Nhập lại mật khẩu</td>
+                <td> <input type="password" name="pass" id="pass" width="20"></td>
+            </tr>
+            <tr>
+                <td>Email </td>
+                <td> <input type="email" name="email" id="email" width="40" ></td>
+            </tr>
+            <tr>
+                <td> Giới tính</td>
+                <td>
+                    <input type="radio" name="gender" id="male" >
+                    <label for=" male"> Nam</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female"> Nữ</label>
+                </td>
+            </tr>
+            <tr>
+                <td> Độ tuổi</td>
+                <td>
+                    <input type="checkbox" name="duoi13tuoi" id="duoi13tuoi">
+                    <label for="duoi13tuoi"> Dưới 13 tuổi</label>
+                    <input type="checkbox" name="tu13den17tuoi" id="tu13den17tuoi" >
+                    <label for="tu13den17tuoi"> Từ 13 đến 17 tuổi</label>  <br/>
+                    <input type="checkbox" name="tu18den25tuoi" id="tu18den25tuoi">
+                    <label for="tu18den25tuoi"> Từ 18 đến 25 tuổi</label>
+                    <input type="checkbox" name="tren25tuoi" id="tren25tuoi">
+                    <label for="tren25tuoi"> Trên 25 tuổi</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Sở thích của bạn</td>
+                <td>
+                    <input type="checkbox" name="amnhac" id="amnhac">
+                    <label for="amnhac"> Âm nhac</label>
+                    <input type="checkbox" name="game" id="game">
+                    <label for="game"> Game</label>
+                    <input type="checkbox" name="thethao" id="thethao">
+                    <label for="thethao"> Thể thao</label>
+                    <input type="checkbox" name="dulich" id="dulich">
+                    <label for="dulich">Du lịch</label>
+                </td>
+            </tr>
+            <tr>
+                <td> Nghề nghiệp</td>
+                <td>
+                    <select name="province" id="province">
+                        <option value="">Chọn ngành nghề</option>
+                        <option value="">Bác sĩ</option>
+                        <option value="">Giáo viên</option>
+                        <option value="">Kỹ sư</option>
+                        <option value="">Kỹ thuật viên</option>
+                        <option value="">Lập trình</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> Mô tả bản thân</td>
+                <td>
+                    <textarea name="description" id="description" cols="40" rows="3"> Mô tả về bản thân bạn...</textarea>
+                </td>
+            </tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Đăng kí" name="register">
+                <input type="reset" value="Làm lại" name="reset">
+            </td>
+        </table>
+    </form>
+</div>  
+</body>
+</html>

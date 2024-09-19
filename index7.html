@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bài 7</title>
+    <style>
+        .b1{
+            background-color: rgb(240, 240, 240);
+            padding: 10px;
+           
+            border: 20px black;
+           
+            
+        }
+        h2{
+            color: aliceblue;
+            background-color: rgb(248, 77, 77);
+            height: 30px;
+            padding-top: 20px;
+            padding-left: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+    </style>
+</head>
+<body >
+    <div class="b1" >
+        <form  >
+            <table >
+              <h2 > WUFOO</h2>
+               <h3>To Do List</h3>
+              <td>Item</td> 
+             <tr>
+                <td><input type="text" name="item" id="item" size="52"></td>  
+             </tr>
+               <tr>
+                <td> Description</td>
+               </tr>
+               <tr>
+                    <td> <textarea name="description" id="description" cols="50" rows="4"></textarea></td>
+               </tr>
+               <tr>
+                     <th align="left"> Priority</th>
+                     <th align="left"  > Category</th>
+               </tr>
+
+               <tr>
+                <td > <select name="province" id="province" style="width:200px" >
+                <option value=""> Low</option> </select>
+                </td>
+                <td >
+                    <select name="province" id="province" style="width:200px" >
+                        <option value=""> Personal</option> </select>
+                </td>
+               </tr>
+
+               <tr>
+                <td> <label for="date">Due Date</label></td> 
+               </tr>
+               <td> <input type="date" name="date" id="date"></td>
+
+               <tr>
+                <td>Status</td>
+               </tr>
+               <tr>
+                <td> <input type="checkbox" name="done" id="done">
+                    <label for="done"> Done</label>
+                </td>
+               </tr>
+
+               <tr>
+                <td > <input type="submit" name="submit" id="submit"></td>
+               </tr>
+
+            </table>
+        </form>
+    </div>
+</body>
+</html>
